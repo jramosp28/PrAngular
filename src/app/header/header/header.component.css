@@ -1,0 +1,46 @@
+
+body{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-top: solid 1px black;
+    
+}
+.miClase {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 5px;
+    color: rgb(222, 246, 247);
+    background-color: cadetblue;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+.nav ul {
+    padding: 0.5em;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav li:hover{
+    background-color: rgb(222, 246, 247);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
