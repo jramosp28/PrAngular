@@ -1,6 +1,6 @@
 body{
     border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     border-left: 1px solid black;
 }
 
@@ -9,4 +9,8 @@ body{
     justify-content: center;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    padding: 1em;
+}
+h3{
+  box-shadow: black 0.3em 0.2em 0.1em;
 }

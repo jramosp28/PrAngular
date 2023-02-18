@@ -1,17 +1,21 @@
-<body [class]="body">
-    <div class="miClase">
-        <h2 [class]="change">Primer Proyecto de Angular</h2>
-        <div class="buttons">
-            <button (click)="cambioColor()">Cambio color</button>
-            <button (click)="cambioBg()">Cambio bg</button>
-        </div>
+<body [ngClass]="body">
+  <div id="home" class="miClase">
+    <h2 [ngClass]="change" [ngStyle]="{ 'font-family': cambio }">Primer Proyecto de Angular</h2>
+    <div class="buttons">
+      <button (click)="cambioColor()">Cambio color</button>
+      <button (click)="cambioBg()">Cambio bg</button>
+      <button (click)="cambioTipoLetra()">Cambio tipo de letra</button>
     </div>
-    <div class="nav">
-        <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
-        </ul>
-    </div>
+  </div>
+  <div class="nav">
+    <ul [ngStyle]="{ color: cambio }">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#futbolistas">Futbolistas</a></li>
+      <li><a href="#basquetbolistas">Basquetbolistas</a></li>
+      <li><a href="#tenistas">Tenistas</a></li>
+      <li><a href="#foot">Footer</a></li>
+    </ul>
+  </div>
+
+
 </body>

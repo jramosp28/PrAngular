@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  
+  public websiteName: string = 'Primera Practica Angular';
+  public copyrightYear: number = 2023;
+  public authorName: string = 'Javier Ramos';
 }
